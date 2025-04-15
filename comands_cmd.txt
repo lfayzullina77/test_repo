@@ -1,0 +1,33 @@
+Создать папку Test на десктопе с помощью командной строки CMD
+C:\Users\Руслан\Desktop>mkdir Test
+
+Создать файла test.txt на десктопе содержимое файла Sampl test
+C:\Users\Руслан\Desktop>echo Sampl test>test.txt
+
+Вывести список файлов и папок в текущей директории Desktop
+C:\Users\Руслан\Desktop>dir
+
+Скопировать файл с именем test.txt в директорию Test
+C:\Users\Руслан\Desktop>copy test.txt Test\test.txt
+Скопировано файлов:         1
+
+Переименовать файл с именем test.txt на test2.txt на рабочем столе
+C:\Users\Руслан\Desktop>ren test.txt test2.txt
+
+Посмотреть содержимое файла test2.txt
+C:\Users\Руслан\Desktop>type test2.txt
+Sampl test
+
+Удалить файл с именем test2.txt с рабочего стола.
+C:\Users\Руслан\Desktop>del test2.txt
+
+Вывести список содержимого любой папки, 
+но отсортированный по названию файлов в алфавитном порядке
+C:\Users\Руслан\Desktop>dir /O:N
+
+Изучите параметры команды ping и проверьте доступность хоста google.com
+C:\Users\Руслан\Desktop>ping google.com
+
+Вывести текущую дату с помощью команды date
+C:\Users\Руслан\Desktop>date
+Текущая дата: 23.03.2025
